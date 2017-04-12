@@ -57,12 +57,6 @@ Library
                        OpenGL >= 3 && < 3.1,
                        transformers >= 0.3,
                        vector >= 0.7
-  if impl(ghc >= 7.10.1)
-    Build-depends:     hpp >= 0.3.1 && < 0.5
-    GHC-Options:       -pgmPhpp -optP--cpp -optP-P
-  else
-    Build-tools:       cpphs
-    GHC-Options:       -pgmPcpphs -optP--cpp -optP--hashes
 
   GHC-Options:         -Odph -Wall
   HS-Source-Dirs:      src

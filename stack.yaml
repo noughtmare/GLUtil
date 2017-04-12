@@ -1,4 +1,4 @@
-resolver: lts-7.2
+resolver: lts-8.11
 
 # User packages to be built.
 # Various formats can be used as shown in the example below.
@@ -20,7 +20,6 @@ resolver: lts-7.2
 # will not be run. This is useful for tweaking upstream packages.
 packages:
 - '.'
-- '../hpp'
 
 # Dependency packages to be pulled from upstream that are not in the resolver
 # (e.g., acme-missiles-0.3)
